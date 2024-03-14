@@ -1,0 +1,37 @@
+.card {
+  width: 600px;
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.goblin-game {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.status {
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: rgb(2, 90, 46);
+  border-radius: 50%;
+}
+
+.cell_has-goblin {
+  background-image: url(../pic/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(155, 209, 159);
+}
+
